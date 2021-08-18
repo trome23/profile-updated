@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+  }
+
+.container {
+    width: 570px;
+    text-align: center;
+}
