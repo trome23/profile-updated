@@ -13,7 +13,7 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 1.125rem;
+
 }
 
 .container {
@@ -51,7 +51,7 @@ img {
     border-radius: 50%;
     border: 10px solid white;
     max-width: 100%;
-  }
+}
 
 .accent-text {
     display: block;
@@ -84,7 +84,11 @@ a:hover {
 
 header, 
 section {
-    padding: 6.25em 0;
+    padding: 3.25em 0;
+}
+
+header {
+    min-height: 100vh;
 }
 
 p {
@@ -132,8 +136,10 @@ p {
 }
 
 @media (min-width: 750px) {
+    
     .columns {
         display: flex; 
+        align-items: center;
     }
 
     .articles.inverse {
@@ -149,7 +155,17 @@ p {
     }
     .articles.inverse .button {
         background-color: #252525;
-        color: #99D930;
+        color: #fff;
+    }
+
+    .articles.inverse .button:hover,
+    .articles.inverse .button:focus {
+        background-color: #fff;
+        color:#252525;
+    }
+
+    .articles.inverse h2 {
+        border-color: black;
     }
 }
 
