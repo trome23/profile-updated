@@ -13,7 +13,6 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-
 }
 
 .container {
@@ -89,6 +88,8 @@ section {
 
 header {
     min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 p {
@@ -167,6 +168,4 @@ p {
     .articles.inverse h2 {
         border-color: black;
     }
-}
-
-
+    
